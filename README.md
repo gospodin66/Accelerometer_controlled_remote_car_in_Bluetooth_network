@@ -4,7 +4,7 @@ Android app for driving robot car by device accelerometer in Bluetooth network.
 
 **Connection**: User turns on bluetooth & starts searching for devices. After discovering and connecting to the robot car, device starts listening to accelerometer events.
 
-**Accelerometer**: On device movement detection, device encodes x,y coordinates from accelerometer sensor to pre-defined letters and sends to receiving device. Receiving (arduino) app decodes input letters & drives motors accordingly. 
+**Accelerometer**: On device movement detection, app encodes x,y coordinates read from accelerometer sensor to pre-defined letters and sends to receiving device. Receiving (arduino) app decodes input letters & drives motors accordingly. 
 
 Leters coding:
 ```java
